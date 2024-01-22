@@ -1,0 +1,59 @@
+@charset "utf-8";
+.container h1 {
+    font-family: arial;
+    font-weight: 1200;
+    margin-top: 0;
+    color: #efae44;
+}
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+body {
+    padding: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-family: arial;
+    background-color: #eff3e2;
+}
+p, li, ul, tr, th, td, ol{
+    font-family: Times New Roman;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+}
+ul{
+    list-style-type: circle;
+	padding-left: 40px;
+	padding-top: 0px;
+}
+ol {
+	padding-left: 40px;
+}
+ul, ol {
+	margin-top: 0px;
+}
+.container .classifications p {
+    padding-left: 40px;
+	margin-bottom: 0px;
+}
+.container .comparison table {
+	width: 100%;
+	text-align: left;
+}
+.container .comparison table, td, th {
+    border: double;
+	border-width: thin;
+}
+
+.container .comparison th {
+	font-weight: 100;
+}
+.container footer p {
+	text-align: center;
+	font-style: italic;
+	margin: 0px;
+}
